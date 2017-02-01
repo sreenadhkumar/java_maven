@@ -90,7 +90,7 @@
                         <publisher>
                             <contextUrl>http://35.167.153.89:8081/artifactory</contextUrl>
                             <username>admin</username>
-                            <password>password</password>
+                            <password>AP2ULqTtio7fKme57fL4z3RZw5z</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                         </publisher>
