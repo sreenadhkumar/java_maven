@@ -87,30 +87,25 @@
                             <gradle>awesome</gradle>
                             <review.team>qa</review.team>
                         </deployProperties>
-                        <publisher>
-                            <contextUrl>http://35.167.153.89:8081/artifactory</contextUrl>
-                            <username>admin</username>
-                            <password>{AP2ULqTtio7fKme57fL4z3RZw5z}</password>
-                            <repoKey>libs-release-local</repoKey>
-                            <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
-                        </publisher>
+                       
                     </configuration>
                 </execution>
             </executions>
         </plugin>
             </plugins>
         </pluginManagement>
-        <distributionManagement>
-         <repository>
-          <id>central</id>
-          <name>jfrog-releases</name>
-          <url>http://35.167.153.89:8081/artifactory/libs-release-local</url>
-         </repository>
-         <snapshotRepository>
-           <id>snapshots</id>
-           <name>plugins-snapshot</name>
-           <url>http://35.167.153.89:8081/artifactory/libs-snapshot-local</url>
-         </snapshotRepository>
-        </distributionManagement>     
-  </build>
+    </build>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog-releases</name>
+        <url>http://35.167.153.89:8081/artifactory/libs-release-local</url>
+    </repository>
+     <snapshotRepository>
+        <id>snapshots</id>
+        <name>plugins-snapshot</name>
+        <url>http://35.167.153.89:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>     
+
 </project>
